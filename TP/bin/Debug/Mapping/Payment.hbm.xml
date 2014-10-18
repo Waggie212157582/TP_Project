@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="TP"
+                   namespace="TP.Domain">
+  <class name="Payment">
+    <id name="id">
+      <generator class="native" />
+    </id>
+    <property name="paySurname" />
+    <property name="payName" />
+    <property name="payIdNumber" />
+    <property name="payAddress" />
+    <property name="payTelNo" />
+    <property name="payTelNoWork" />
+    <property name="payRelationship" />
+    <property name="payOccupation" />
+    <property name="patientNum" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,808 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7e12f3c9-ddcb-4972-b449-2046bf8ad7ff" name="Tino@TINO-PC 2014-10-14 11:43:28" runUser="Tino-PC\Tino" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3caa583e-b5f9-4780-b502-695f744f7d3c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tino_TINO-PC 2014-10-14 11_43_28">
+      <DeploymentItem filename="C:\Users\Tino\Desktop\TP\TP\bin\Debug\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\Tino\Desktop\TP\TP\bin\Debug\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\Users\Tino\Desktop\TP\TP\bin\Debug\System.Data.SqlServerCe.dll" />
+      <DeploymentItem filename="C:\Users\Tino\Desktop\TP\TP\bin\Debug\TP.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-14T11:43:28.6817750-07:00" queuing="2014-10-14T11:43:29.0357953-07:00" start="2014-10-14T11:43:29.1017990-07:00" finish="2014-10-14T11:44:17.9515931-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="4" error="0" failed="3" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="5" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestAllAuthorizer" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="5afea8c9-d3ab-4ebf-9553-a2458d7ea6cf">
+      <Execution id="cf7d77d3-1a00-4e31-a9f0-aca867b6e3dc" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.repository.TestAuthorizer, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllAuthorizer" />
+    </UnitTest>
+    <UnitTest name="TestAllEmployee" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="f44b82e6-9fa6-66d0-f37d-d7eea6349f41">
+      <Execution id="f2e9362b-8c17-4bf7-9db6-36d672725c73" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.Repository.TestEmployee, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllEmployee" />
+    </UnitTest>
+    <UnitTest name="TestAllPatientAddress" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="a4aaea69-8e99-80da-06a2-51caab4d2873">
+      <Execution id="5f34bada-dd84-4bd1-8629-7541d3a272e2" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.repository.TestPatientAddress, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllPatientAddress" />
+    </UnitTest>
+    <UnitTest name="TestAllTerminalUser" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="47ca51c2-3965-9371-4f2b-e7525cbf149b">
+      <Execution id="115195e2-c366-421d-bee6-42c91b50addc" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.Repository.TestTerminalUser, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllTerminalUser" />
+    </UnitTest>
+    <UnitTest name="TestAllAppoinment" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="3d41bc01-b249-954e-ed91-c15c60ffeea0">
+      <Execution id="7ed440fe-24df-40df-83dc-33f691b5fade" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.Repository.TestAppointment, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllAppoinment" />
+    </UnitTest>
+    <UnitTest name="TestAllPatient" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="6e26cf5a-168a-510e-410f-d0545d2f9604">
+      <Execution id="430da1a7-0c4b-436e-a746-62b4a2dcffd9" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.TestPatient, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllPatient" />
+    </UnitTest>
+    <UnitTest name="TestAllProcedures" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="52433816-34f4-2a6c-a0bc-1c1ffc38cbb9">
+      <Execution id="63e0ec19-94f1-4422-8307-56fdab641eb0" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.Repository.TestProcedure, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllProcedures" />
+    </UnitTest>
+    <UnitTest name="TestAllPaymentData" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="ef02c3d0-ff67-1dfc-598e-2b27d85d78c5">
+      <Execution id="d98be19e-3014-48a9-a273-d6611156521a" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.Repository.TestPaymentData, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllPaymentData" />
+    </UnitTest>
+    <UnitTest name="TestAllPayment" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="d023ff9b-12c5-5440-f6f4-f338c74d902d">
+      <Execution id="f4832561-04aa-4ab9-b428-40d770ff3882" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.Repository.TestPayment, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllPayment" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3d41bc01-b249-954e-ed91-c15c60ffeea0" executionId="7ed440fe-24df-40df-83dc-33f691b5fade" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47ca51c2-3965-9371-4f2b-e7525cbf149b" executionId="115195e2-c366-421d-bee6-42c91b50addc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52433816-34f4-2a6c-a0bc-1c1ffc38cbb9" executionId="63e0ec19-94f1-4422-8307-56fdab641eb0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5afea8c9-d3ab-4ebf-9553-a2458d7ea6cf" executionId="cf7d77d3-1a00-4e31-a9f0-aca867b6e3dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e26cf5a-168a-510e-410f-d0545d2f9604" executionId="430da1a7-0c4b-436e-a746-62b4a2dcffd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4aaea69-8e99-80da-06a2-51caab4d2873" executionId="5f34bada-dd84-4bd1-8629-7541d3a272e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d023ff9b-12c5-5440-f6f4-f338c74d902d" executionId="f4832561-04aa-4ab9-b428-40d770ff3882" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef02c3d0-ff67-1dfc-598e-2b27d85d78c5" executionId="d98be19e-3014-48a9-a273-d6611156521a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f44b82e6-9fa6-66d0-f37d-d7eea6349f41" executionId="f2e9362b-8c17-4bf7-9db6-36d672725c73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7ed440fe-24df-40df-83dc-33f691b5fade" testId="3d41bc01-b249-954e-ed91-c15c60ffeea0" testName="TestAllAppoinment" computerName="TINO-PC" duration="00:00:15.8784662" startTime="2014-10-14T11:43:29.2228060-07:00" endTime="2014-10-14T11:43:46.1977769-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ed440fe-24df-40df-83dc-33f691b5fade">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990506A3C44
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD434861036646595
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A61A023E82
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       TreatIdIndex INTEGER,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       index2 INTEGER,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       index1 INTEGER,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       primary key (id)
+    )
+
+    create table PaymentData (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paymentDate VARCHAR(255),
+       paymentTime VARCHAR(255),
+       numberOfProcedures INTEGER,
+       tax DOUBLE,
+       total DOUBLE,
+       change DOUBLE,
+       userName BIGINT,
+       idx INTEGER,
+       patientNum BIGINT,
+       index3 INTEGER,
+       primary key (id)
+    )</StdOut>
+        <ErrorInfo>
+          <Message>Test method TPTest.Repository.TestAppointment.TestAllAppoinment threw exception: 
+NHibernate.HibernateException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'change DOUBLE, userName BIGINT, idx INTEGER, patientNum BIGINT, index3 INTEGER, ' at line 1 ---&gt; MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'change DOUBLE, userName BIGINT, idx INTEGER, patientNum BIGINT, index3 INTEGER, ' at line 1</Message>
+          <StackTrace>    at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32&amp; affectedRow, Int64&amp; insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32&amp; affectedRows, Int64&amp; insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at NHibernate.Tool.hbm2ddl.SchemaExport.ExecuteSql(IDbCommand cmd, String sql)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean throwOnError, TextWriter exportOutput, IDbCommand statement, String sql)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop, IDbConnection connection, TextWriter exportOutput)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop)
+ --- End of inner exception stack trace ---
+    at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Boolean script, Boolean export, Boolean justDrop)
+   at TP.Config.ConnectionConfig.loadAppointmentConfig() in C:\Users\Tino\Desktop\TP\TP\config\ConnectionConfig.cs:line 34
+   at TPTest.Repository.TestAppointment.testCreate() in C:\Users\Tino\Desktop\TP\TPTest\repository\TestAppointment.cs:line 29
+   at TPTest.Repository.TestAppointment.TestAllAppoinment() in C:\Users\Tino\Desktop\TP\TPTest\repository\TestAppointment.cs:line 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="115195e2-c366-421d-bee6-42c91b50addc" testId="47ca51c2-3965-9371-4f2b-e7525cbf149b" testName="TestAllTerminalUser" computerName="TINO-PC" duration="00:00:08.2283095" startTime="2014-10-14T11:43:46.2497798-07:00" endTime="2014-10-14T11:43:54.4942514-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="115195e2-c366-421d-bee6-42c91b50addc">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990506A3C44
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD434861036646595
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A61A023E82
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       TreatIdIndex INTEGER,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       index2 INTEGER,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       index1 INTEGER,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       primary key (id)
+    )
+
+    create table PaymentData (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paymentDate VARCHAR(255),
+       paymentTime VARCHAR(255),
+       numberOfProcedures INTEGER,
+       tax DOUBLE,
+       total DOUBLE,
+       change DOUBLE,
+       userName BIGINT,
+       idx INTEGER,
+       patientNum BIGINT,
+       index3 INTEGER,
+       primary key (id)
+    )</StdOut>
+        <ErrorInfo>
+          <Message>Test method TPTest.Repository.TestTerminalUser.TestAllTerminalUser threw exception: 
+NHibernate.HibernateException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'change DOUBLE, userName BIGINT, idx INTEGER, patientNum BIGINT, index3 INTEGER, ' at line 1 ---&gt; MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'change DOUBLE, userName BIGINT, idx INTEGER, patientNum BIGINT, index3 INTEGER, ' at line 1</Message>
+          <StackTrace>    at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32&amp; affectedRow, Int64&amp; insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32&amp; affectedRows, Int64&amp; insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at NHibernate.Tool.hbm2ddl.SchemaExport.ExecuteSql(IDbCommand cmd, String sql)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean throwOnError, TextWriter exportOutput, IDbCommand statement, String sql)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop, IDbConnection connection, TextWriter exportOutput)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop)
+ --- End of inner exception stack trace ---
+    at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Boolean script, Boolean export, Boolean justDrop)
+   at TP.Config.ConnectionConfig.loadPatientAddressConfig() in C:\Users\Tino\Desktop\TP\TP\config\ConnectionConfig.cs:line 90
+   at TPTest.Repository.TestTerminalUser.testCreate() in C:\Users\Tino\Desktop\TP\TPTest\repository\TestTerminalUser.cs:line 28
+   at TPTest.Repository.TestTerminalUser.TestAllTerminalUser() in C:\Users\Tino\Desktop\TP\TPTest\repository\TestTerminalUser.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="63e0ec19-94f1-4422-8307-56fdab641eb0" testId="52433816-34f4-2a6c-a0bc-1c1ffc38cbb9" testName="TestAllProcedures" computerName="TINO-PC" duration="00:00:10.7905529" startTime="2014-10-14T11:43:54.5322536-07:00" endTime="2014-10-14T11:44:05.3488722-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63e0ec19-94f1-4422-8307-56fdab641eb0">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990506A3C44
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD434861036646595
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A61A023E82
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       TreatIdIndex INTEGER,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       index2 INTEGER,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       index1 INTEGER,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       primary key (id)
+    )
+
+    create table PaymentData (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paymentDate VARCHAR(255),
+       paymentTime VARCHAR(255),
+       numberOfProcedures INTEGER,
+       tax DOUBLE,
+       total DOUBLE,
+       change DOUBLE,
+       userName BIGINT,
+       idx INTEGER,
+       patientNum BIGINT,
+       index3 INTEGER,
+       primary key (id)
+    )</StdOut>
+        <ErrorInfo>
+          <Message>Test method TPTest.Repository.TestProcedure.TestAllProcedures threw exception: 
+NHibernate.HibernateException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'change DOUBLE, userName BIGINT, idx INTEGER, patientNum BIGINT, index3 INTEGER, ' at line 1 ---&gt; MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'change DOUBLE, userName BIGINT, idx INTEGER, patientNum BIGINT, index3 INTEGER, ' at line 1</Message>
+          <StackTrace>    at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32&amp; affectedRow, Int64&amp; insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32&amp; affectedRows, Int64&amp; insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at NHibernate.Tool.hbm2ddl.SchemaExport.ExecuteSql(IDbCommand cmd, String sql)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean throwOnError, TextWriter exportOutput, IDbCommand statement, String sql)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop, IDbConnection connection, TextWriter exportOutput)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop)
+ --- End of inner exception stack trace ---
+    at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Boolean script, Boolean export, Boolean justDrop)
+   at TP.Config.ConnectionConfig.loadProcedureConfig() in C:\Users\Tino\Desktop\TP\TP\config\ConnectionConfig.cs:line 74
+   at TPTest.Repository.TestProcedure.testCreate() in C:\Users\Tino\Desktop\TP\TPTest\repository\TestProcedure.cs:line 28
+   at TPTest.Repository.TestProcedure.TestAllProcedures() in C:\Users\Tino\Desktop\TP\TPTest\repository\TestProcedure.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cf7d77d3-1a00-4e31-a9f0-aca867b6e3dc" testId="5afea8c9-d3ab-4ebf-9553-a2458d7ea6cf" testName="TestAllAuthorizer" computerName="TINO-PC" duration="00:00:11.8806796" startTime="2014-10-14T11:44:05.4048754-07:00" endTime="2014-10-14T11:44:17.2855550-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf7d77d3-1a00-4e31-a9f0-aca867b6e3dc">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990506A3C44
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD434861036646595
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A61A023E82
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       TreatIdIndex INTEGER,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       index2 INTEGER,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       index1 INTEGER,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       primary key (id)
+    )</StdOut>
+        <ErrorInfo>
+          <Message>User aborted test run.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="430da1a7-0c4b-436e-a746-62b4a2dcffd9" testId="6e26cf5a-168a-510e-410f-d0545d2f9604" testName="TestAllPatient" computerName="TINO-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="430da1a7-0c4b-436e-a746-62b4a2dcffd9">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f34bada-dd84-4bd1-8629-7541d3a272e2" testId="a4aaea69-8e99-80da-06a2-51caab4d2873" testName="TestAllPatientAddress" computerName="TINO-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f34bada-dd84-4bd1-8629-7541d3a272e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="f4832561-04aa-4ab9-b428-40d770ff3882" testId="d023ff9b-12c5-5440-f6f4-f338c74d902d" testName="TestAllPayment" computerName="TINO-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4832561-04aa-4ab9-b428-40d770ff3882">
+    </UnitTestResult>
+    <UnitTestResult executionId="d98be19e-3014-48a9-a273-d6611156521a" testId="ef02c3d0-ff67-1dfc-598e-2b27d85d78c5" testName="TestAllPaymentData" computerName="TINO-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d98be19e-3014-48a9-a273-d6611156521a">
+    </UnitTestResult>
+    <UnitTestResult executionId="f2e9362b-8c17-4bf7-9db6-36d672725c73" testId="f44b82e6-9fa6-66d0-f37d-d7eea6349f41" testName="TestAllEmployee" computerName="TINO-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2e9362b-8c17-4bf7-9db6-36d672725c73">
+    </UnitTestResult>
+  </Results>
+</TestRun>

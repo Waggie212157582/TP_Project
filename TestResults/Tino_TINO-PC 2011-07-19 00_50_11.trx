@@ -1,0 +1,2151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9f150c2c-1a40-4627-af57-d4aa1e3dbd53" name="Tino@TINO-PC 2011-07-19 00:50:11" runUser="Tino-PC\Tino" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3caa583e-b5f9-4780-b502-695f744f7d3c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tino_TINO-PC 2011-07-19 00_50_11">
+      <DeploymentItem filename="C:\Users\Tino\Desktop\TP\TP\bin\Debug\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\Tino\Desktop\TP\TP\bin\Debug\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\Users\Tino\Desktop\TP\TP\bin\Debug\System.Data.SqlServerCe.dll" />
+      <DeploymentItem filename="C:\Users\Tino\Desktop\TP\TP\bin\Debug\TP.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-19T00:50:11.1758558-07:00" queuing="2011-07-19T00:50:11.2498600-07:00" start="2011-07-19T00:50:11.2818618-07:00" finish="2011-07-19T00:54:05.6952695-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestAllAuthorizer" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="5afea8c9-d3ab-4ebf-9553-a2458d7ea6cf">
+      <Execution id="61522738-8d10-4f1e-84e6-f2eec6345e6b" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.repository.TestAuthorizer, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllAuthorizer" />
+    </UnitTest>
+    <UnitTest name="TestAllEmployee" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="f44b82e6-9fa6-66d0-f37d-d7eea6349f41">
+      <Execution id="921fb6d0-bb79-4e72-b387-bd9531c47f81" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.Repository.TestEmployee, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllEmployee" />
+    </UnitTest>
+    <UnitTest name="TestAllPatientAddress" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="a4aaea69-8e99-80da-06a2-51caab4d2873">
+      <Execution id="fa9f7e54-b9cc-4244-88ae-177793094e6b" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.repository.TestPatientAddress, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllPatientAddress" />
+    </UnitTest>
+    <UnitTest name="TestAllTerminalUser" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="47ca51c2-3965-9371-4f2b-e7525cbf149b">
+      <Execution id="27e9dac3-525e-4542-8baa-5c5db3317c40" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.Repository.TestTerminalUser, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllTerminalUser" />
+    </UnitTest>
+    <UnitTest name="TestAllAppoinment" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="3d41bc01-b249-954e-ed91-c15c60ffeea0">
+      <Execution id="c4bdad72-e2d8-471b-a069-054d1c48ac0e" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.Repository.TestAppointment, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllAppoinment" />
+    </UnitTest>
+    <UnitTest name="TestAllPatient" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="6e26cf5a-168a-510e-410f-d0545d2f9604">
+      <Execution id="b6746b3d-c384-40a4-9133-864615f8dfee" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.TestPatient, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllPatient" />
+    </UnitTest>
+    <UnitTest name="TestAllProcedures" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="52433816-34f4-2a6c-a0bc-1c1ffc38cbb9">
+      <Execution id="846376ab-6cc4-4a01-b75e-6dbfd6ea8300" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.Repository.TestProcedure, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllProcedures" />
+    </UnitTest>
+    <UnitTest name="TestAllPaymentData" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="ef02c3d0-ff67-1dfc-598e-2b27d85d78c5">
+      <Execution id="f83b7067-0e92-4068-b40d-eff16025aa7a" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.Repository.TestPaymentData, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllPaymentData" />
+    </UnitTest>
+    <UnitTest name="TestAllPayment" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="d023ff9b-12c5-5440-f6f4-f338c74d902d">
+      <Execution id="473f6410-b6c1-472a-8133-3554ce854ddf" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.Repository.TestPayment, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllPayment" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3d41bc01-b249-954e-ed91-c15c60ffeea0" executionId="c4bdad72-e2d8-471b-a069-054d1c48ac0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47ca51c2-3965-9371-4f2b-e7525cbf149b" executionId="27e9dac3-525e-4542-8baa-5c5db3317c40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52433816-34f4-2a6c-a0bc-1c1ffc38cbb9" executionId="846376ab-6cc4-4a01-b75e-6dbfd6ea8300" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5afea8c9-d3ab-4ebf-9553-a2458d7ea6cf" executionId="61522738-8d10-4f1e-84e6-f2eec6345e6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e26cf5a-168a-510e-410f-d0545d2f9604" executionId="b6746b3d-c384-40a4-9133-864615f8dfee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4aaea69-8e99-80da-06a2-51caab4d2873" executionId="fa9f7e54-b9cc-4244-88ae-177793094e6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d023ff9b-12c5-5440-f6f4-f338c74d902d" executionId="473f6410-b6c1-472a-8133-3554ce854ddf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef02c3d0-ff67-1dfc-598e-2b27d85d78c5" executionId="f83b7067-0e92-4068-b40d-eff16025aa7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f44b82e6-9fa6-66d0-f37d-d7eea6349f41" executionId="921fb6d0-bb79-4e72-b387-bd9531c47f81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c4bdad72-e2d8-471b-a069-054d1c48ac0e" testId="3d41bc01-b249-954e-ed91-c15c60ffeea0" testName="TestAllAppoinment" computerName="TINO-PC" duration="00:00:30.5356695" startTime="2011-07-19T00:50:11.3048632-07:00" endTime="2011-07-19T00:50:42.5556506-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4bdad72-e2d8-471b-a069-054d1c48ac0e">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990A213425E
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A6A213425E
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table PaymentData (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paymentDate VARCHAR(255),
+       paymentTime VARCHAR(255),
+       numberOfProcedures INTEGER,
+       tax DOUBLE,
+       total DOUBLE,
+       changes DOUBLE,
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table TerminalUser (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       userName VARCHAR(255),
+       password VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Allergy (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       AllName VARCHAR(255),
+       AllIsSerious TINYINT(1),
+       MedHistId BIGINT,
+       primary key (id)
+    )
+
+    create table Patient (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       patientNum VARCHAR(255),
+       surname VARCHAR(255),
+       firstName VARCHAR(255),
+       idNum VARCHAR(255),
+       maritalStatus VARCHAR(255),
+       telNo VARCHAR(255),
+       workTelNo VARCHAR(255),
+       refferedBy VARCHAR(255),
+       primary key (id)
+    )
+
+    alter table Treatment 
+        add index (MedHistId), 
+        add constraint FK36967990A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+
+    alter table Appointment 
+        add index (patientNum), 
+        add constraint FKBB6A20C0EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PatientAddress 
+        add index (patientNum), 
+        add constraint FKB4CD86E1EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PaymentData 
+        add index (patientNum), 
+        add constraint FKD4348610EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table Allergy 
+        add index (MedHistId), 
+        add constraint FKECE328A6A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+NHibernate: INSERT INTO Appointment (appId, reasonForVisit, appDate, appTime) VALUES (?p0, ?p1, ?p2, ?p3);SELECT LAST_INSERT_ID();?p0 = '1354asd' [Type: String (7)], ?p1 = 'Foot Massage' [Type: String (12)], ?p2 = 'Tuesday, July 19, 2011' [Type: String (22)], ?p3 = '12:50:39 AM' [Type: String (11)]
+NHibernate: SELECT this_.id as id15_0_, this_.appId as appId15_0_, this_.reasonForVisit as reasonFo3_15_0_, this_.appDate as appDate15_0_, this_.appTime as appTime15_0_ FROM Appointment this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id15_0_, this_.appId as appId15_0_, this_.reasonForVisit as reasonFo3_15_0_, this_.appDate as appDate15_0_, this_.appTime as appTime15_0_ FROM Appointment this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE Appointment SET appId = ?p0, reasonForVisit = ?p1, appDate = ?p2, appTime = ?p3 WHERE id = ?p4;?p0 = '1354asd' [Type: String (7)], ?p1 = 'Check Up' [Type: String (8)], ?p2 = 'Tuesday, July 19, 2011' [Type: String (22)], ?p3 = '12:50:39 AM' [Type: String (11)], ?p4 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id15_0_, this_.appId as appId15_0_, this_.reasonForVisit as reasonFo3_15_0_, this_.appDate as appDate15_0_, this_.appTime as appTime15_0_ FROM Appointment this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id15_0_, this_.appId as appId15_0_, this_.reasonForVisit as reasonFo3_15_0_, this_.appDate as appDate15_0_, this_.appTime as appTime15_0_ FROM Appointment this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM Appointment WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id15_0_, this_.appId as appId15_0_, this_.reasonForVisit as reasonFo3_15_0_, this_.appDate as appDate15_0_, this_.appTime as appTime15_0_ FROM Appointment this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="27e9dac3-525e-4542-8baa-5c5db3317c40" testId="47ca51c2-3965-9371-4f2b-e7525cbf149b" testName="TestAllTerminalUser" computerName="TINO-PC" duration="00:00:27.7477407" startTime="2011-07-19T00:50:42.6086536-07:00" endTime="2011-07-19T00:51:10.3992432-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27e9dac3-525e-4542-8baa-5c5db3317c40">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990A213425E
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A6A213425E
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table PaymentData (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paymentDate VARCHAR(255),
+       paymentTime VARCHAR(255),
+       numberOfProcedures INTEGER,
+       tax DOUBLE,
+       total DOUBLE,
+       changes DOUBLE,
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table TerminalUser (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       userName VARCHAR(255),
+       password VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Allergy (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       AllName VARCHAR(255),
+       AllIsSerious TINYINT(1),
+       MedHistId BIGINT,
+       primary key (id)
+    )
+
+    create table Patient (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       patientNum VARCHAR(255),
+       surname VARCHAR(255),
+       firstName VARCHAR(255),
+       idNum VARCHAR(255),
+       maritalStatus VARCHAR(255),
+       telNo VARCHAR(255),
+       workTelNo VARCHAR(255),
+       refferedBy VARCHAR(255),
+       primary key (id)
+    )
+
+    alter table Treatment 
+        add index (MedHistId), 
+        add constraint FK36967990A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+
+    alter table Appointment 
+        add index (patientNum), 
+        add constraint FKBB6A20C0EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PatientAddress 
+        add index (patientNum), 
+        add constraint FKB4CD86E1EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PaymentData 
+        add index (patientNum), 
+        add constraint FKD4348610EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table Allergy 
+        add index (MedHistId), 
+        add constraint FKECE328A6A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+NHibernate: INSERT INTO TerminalUser (userName, password, secQuestion, secAnswer) VALUES (?p0, ?p1, ?p2, ?p3);SELECT LAST_INSERT_ID();?p0 = 'qwerty' [Type: String (6)], ?p1 = '789456123' [Type: String (9)], ?p2 = 'What is your cat's name' [Type: String (23)], ?p3 = 'Fluffy' [Type: String (6)]
+NHibernate: SELECT this_.id as id23_0_, this_.userName as userName23_0_, this_.password as password23_0_, this_.secQuestion as secQuest4_23_0_, this_.secAnswer as secAnswer23_0_ FROM TerminalUser this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id23_0_, this_.userName as userName23_0_, this_.password as password23_0_, this_.secQuestion as secQuest4_23_0_, this_.secAnswer as secAnswer23_0_ FROM TerminalUser this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE TerminalUser SET userName = ?p0, password = ?p1, secQuestion = ?p2, secAnswer = ?p3 WHERE id = ?p4;?p0 = 'qwerty' [Type: String (6)], ?p1 = 'keyboard' [Type: String (8)], ?p2 = 'What is your cat's name' [Type: String (23)], ?p3 = 'Fluffy' [Type: String (6)], ?p4 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id23_0_, this_.userName as userName23_0_, this_.password as password23_0_, this_.secQuestion as secQuest4_23_0_, this_.secAnswer as secAnswer23_0_ FROM TerminalUser this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id23_0_, this_.userName as userName23_0_, this_.password as password23_0_, this_.secQuestion as secQuest4_23_0_, this_.secAnswer as secAnswer23_0_ FROM TerminalUser this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM TerminalUser WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id23_0_, this_.userName as userName23_0_, this_.password as password23_0_, this_.secQuestion as secQuest4_23_0_, this_.secAnswer as secAnswer23_0_ FROM TerminalUser this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="846376ab-6cc4-4a01-b75e-6dbfd6ea8300" testId="52433816-34f4-2a6c-a0bc-1c1ffc38cbb9" testName="TestAllProcedures" computerName="TINO-PC" duration="00:00:24.0861398" startTime="2011-07-19T00:51:10.4142440-07:00" endTime="2011-07-19T00:51:34.5146225-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="846376ab-6cc4-4a01-b75e-6dbfd6ea8300">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990A213425E
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A6A213425E
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table PaymentData (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paymentDate VARCHAR(255),
+       paymentTime VARCHAR(255),
+       numberOfProcedures INTEGER,
+       tax DOUBLE,
+       total DOUBLE,
+       changes DOUBLE,
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table TerminalUser (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       userName VARCHAR(255),
+       password VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Allergy (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       AllName VARCHAR(255),
+       AllIsSerious TINYINT(1),
+       MedHistId BIGINT,
+       primary key (id)
+    )
+
+    create table Patient (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       patientNum VARCHAR(255),
+       surname VARCHAR(255),
+       firstName VARCHAR(255),
+       idNum VARCHAR(255),
+       maritalStatus VARCHAR(255),
+       telNo VARCHAR(255),
+       workTelNo VARCHAR(255),
+       refferedBy VARCHAR(255),
+       primary key (id)
+    )
+
+    alter table Treatment 
+        add index (MedHistId), 
+        add constraint FK36967990A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+
+    alter table Appointment 
+        add index (patientNum), 
+        add constraint FKBB6A20C0EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PatientAddress 
+        add index (patientNum), 
+        add constraint FKB4CD86E1EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PaymentData 
+        add index (patientNum), 
+        add constraint FKD4348610EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table Allergy 
+        add index (MedHistId), 
+        add constraint FKECE328A6A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+NHibernate: INSERT INTO Procedures (procedureCode, procedureName, procedurePrice) VALUES (?p0, ?p1, ?p2);SELECT LAST_INSERT_ID();?p0 = 25511 [Type: Int32 (0)], ?p1 = 'Tooth Extraction' [Type: String (16)], ?p2 = 350 [Type: Double (0)]
+NHibernate: SELECT this_.id as id13_0_, this_.procedureCode as procedur2_13_0_, this_.procedureName as procedur3_13_0_, this_.procedurePrice as procedur4_13_0_ FROM Procedures this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id13_0_, this_.procedureCode as procedur2_13_0_, this_.procedureName as procedur3_13_0_, this_.procedurePrice as procedur4_13_0_ FROM Procedures this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE Procedures SET procedureCode = ?p0, procedureName = ?p1, procedurePrice = ?p2 WHERE id = ?p3;?p0 = 11115 [Type: Int32 (0)], ?p1 = 'Tooth Extraction' [Type: String (16)], ?p2 = 350 [Type: Double (0)], ?p3 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id13_0_, this_.procedureCode as procedur2_13_0_, this_.procedureName as procedur3_13_0_, this_.procedurePrice as procedur4_13_0_ FROM Procedures this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id13_0_, this_.procedureCode as procedur2_13_0_, this_.procedureName as procedur3_13_0_, this_.procedurePrice as procedur4_13_0_ FROM Procedures this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM Procedures WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id13_0_, this_.procedureCode as procedur2_13_0_, this_.procedureName as procedur3_13_0_, this_.procedurePrice as procedur4_13_0_ FROM Procedures this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="61522738-8d10-4f1e-84e6-f2eec6345e6b" testId="5afea8c9-d3ab-4ebf-9553-a2458d7ea6cf" testName="TestAllAuthorizer" computerName="TINO-PC" duration="00:00:25.7052452" startTime="2011-07-19T00:51:34.5446242-07:00" endTime="2011-07-19T00:52:00.2660954-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61522738-8d10-4f1e-84e6-f2eec6345e6b">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990A213425E
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A6A213425E
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table PaymentData (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paymentDate VARCHAR(255),
+       paymentTime VARCHAR(255),
+       numberOfProcedures INTEGER,
+       tax DOUBLE,
+       total DOUBLE,
+       changes DOUBLE,
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table TerminalUser (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       userName VARCHAR(255),
+       password VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Allergy (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       AllName VARCHAR(255),
+       AllIsSerious TINYINT(1),
+       MedHistId BIGINT,
+       primary key (id)
+    )
+
+    create table Patient (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       patientNum VARCHAR(255),
+       surname VARCHAR(255),
+       firstName VARCHAR(255),
+       idNum VARCHAR(255),
+       maritalStatus VARCHAR(255),
+       telNo VARCHAR(255),
+       workTelNo VARCHAR(255),
+       refferedBy VARCHAR(255),
+       primary key (id)
+    )
+
+    alter table Treatment 
+        add index (MedHistId), 
+        add constraint FK36967990A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+
+    alter table Appointment 
+        add index (patientNum), 
+        add constraint FKBB6A20C0EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PatientAddress 
+        add index (patientNum), 
+        add constraint FKB4CD86E1EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PaymentData 
+        add index (patientNum), 
+        add constraint FKD4348610EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table Allergy 
+        add index (MedHistId), 
+        add constraint FKECE328A6A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+NHibernate: INSERT INTO Authorizer (empNo, authCode, secQuestion, secAnswer) VALUES (?p0, ?p1, ?p2, ?p3);SELECT LAST_INSERT_ID();?p0 = NULL [Type: String (0)], ?p1 = '321sd654sdf' [Type: String (11)], ?p2 = 'What is your name' [Type: String (17)], ?p3 = 'I dont't have one' [Type: String (17)]
+NHibernate: SELECT this_.id as id18_0_, this_.empNo as empNo18_0_, this_.authCode as authCode18_0_, this_.secQuestion as secQuest4_18_0_, this_.secAnswer as secAnswer18_0_ FROM Authorizer this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id18_0_, this_.empNo as empNo18_0_, this_.authCode as authCode18_0_, this_.secQuestion as secQuest4_18_0_, this_.secAnswer as secAnswer18_0_ FROM Authorizer this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE Authorizer SET empNo = ?p0, authCode = ?p1, secQuestion = ?p2, secAnswer = ?p3 WHERE id = ?p4;?p0 = NULL [Type: String (0)], ?p1 = '321sd654sdf' [Type: String (11)], ?p2 = 'What is your name' [Type: String (17)], ?p3 = 'Boniface' [Type: String (8)], ?p4 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id18_0_, this_.empNo as empNo18_0_, this_.authCode as authCode18_0_, this_.secQuestion as secQuest4_18_0_, this_.secAnswer as secAnswer18_0_ FROM Authorizer this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id18_0_, this_.empNo as empNo18_0_, this_.authCode as authCode18_0_, this_.secQuestion as secQuest4_18_0_, this_.secAnswer as secAnswer18_0_ FROM Authorizer this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM Authorizer WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id18_0_, this_.empNo as empNo18_0_, this_.authCode as authCode18_0_, this_.secQuestion as secQuest4_18_0_, this_.secAnswer as secAnswer18_0_ FROM Authorizer this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b6746b3d-c384-40a4-9133-864615f8dfee" testId="6e26cf5a-168a-510e-410f-d0545d2f9604" testName="TestAllPatient" computerName="TINO-PC" duration="00:00:27.2667921" startTime="2011-07-19T00:52:00.2800962-07:00" endTime="2011-07-19T00:52:27.5636567-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6746b3d-c384-40a4-9133-864615f8dfee">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990A213425E
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A6A213425E
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table PaymentData (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paymentDate VARCHAR(255),
+       paymentTime VARCHAR(255),
+       numberOfProcedures INTEGER,
+       tax DOUBLE,
+       total DOUBLE,
+       changes DOUBLE,
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table TerminalUser (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       userName VARCHAR(255),
+       password VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Allergy (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       AllName VARCHAR(255),
+       AllIsSerious TINYINT(1),
+       MedHistId BIGINT,
+       primary key (id)
+    )
+
+    create table Patient (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       patientNum VARCHAR(255),
+       surname VARCHAR(255),
+       firstName VARCHAR(255),
+       idNum VARCHAR(255),
+       maritalStatus VARCHAR(255),
+       telNo VARCHAR(255),
+       workTelNo VARCHAR(255),
+       refferedBy VARCHAR(255),
+       primary key (id)
+    )
+
+    alter table Treatment 
+        add index (MedHistId), 
+        add constraint FK36967990A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+
+    alter table Appointment 
+        add index (patientNum), 
+        add constraint FKBB6A20C0EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PatientAddress 
+        add index (patientNum), 
+        add constraint FKB4CD86E1EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PaymentData 
+        add index (patientNum), 
+        add constraint FKD4348610EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table Allergy 
+        add index (MedHistId), 
+        add constraint FKECE328A6A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+NHibernate: INSERT INTO Patient (patientNum, surname, firstName, idNum, maritalStatus, telNo, workTelNo, refferedBy) VALUES (?p0, ?p1, ?p2, ?p3, ?p4, ?p5, ?p6, ?p7);SELECT LAST_INSERT_ID();?p0 = 'Auto-generated By Meena' [Type: String (23)], ?p1 = 'Kabaso' [Type: String (6)], ?p2 = 'Boniface' [Type: String (8)], ?p3 = '1111111111111' [Type: String (13)], ?p4 = 'Married' [Type: String (7)], ?p5 = '2125515' [Type: String (7)], ?p6 = '(021) 165 5566' [Type: String (14)], ?p7 = 'Tino' [Type: String (4)]
+NHibernate: INSERT INTO Payment (paySurname, payName, payIdNumber, payAddress, payTelNo, payTelNoWork, payRelationship, payOccupation, patientNum) VALUES (?p0, ?p1, ?p2, ?p3, ?p4, ?p5, ?p6, ?p7, ?p8);SELECT LAST_INSERT_ID();?p0 = 'Kabaso' [Type: String (6)], ?p1 = 'Boniface' [Type: String (8)], ?p2 = 12345698745 [Type: Int64 (0)], ?p3 = 'Somewhere' [Type: String (9)], ?p4 = 'none' [Type: String (4)], ?p5 = 'none' [Type: String (4)], ?p6 = 'None' [Type: String (4)], ?p7 = 'None' [Type: String (4)], ?p8 = NULL [Type: String (0)]
+NHibernate: INSERT INTO NextOfKin (kinSurname, kinName, kinAddress, kinTelNo, kinRelationship, patientNum) VALUES (?p0, ?p1, ?p2, ?p3, ?p4, ?p5);SELECT LAST_INSERT_ID();?p0 = '.db' [Type: String (3)], ?p1 = 'Cassandra' [Type: String (9)], ?p2 = 'Somehwere' [Type: String (9)], ?p3 = '999-888-777' [Type: String (11)], ?p4 = 'NO SQL database' [Type: String (15)], ?p5 = NULL [Type: String (0)]
+NHibernate: INSERT INTO MedicalHistory (rheumaticFever, ifYesRhemDate, diabetic, pophyris, recentIllnesses, bleeder, additionalInfo, patientNum) VALUES (?p0, ?p1, ?p2, ?p3, ?p4, ?p5, ?p6, ?p7);SELECT LAST_INSERT_ID();?p0 = False [Type: Boolean (0)], ?p1 = 'Last Night' [Type: String (10)], ?p2 = True [Type: Boolean (0)], ?p3 = False [Type: Boolean (0)], ?p4 = False [Type: Boolean (0)], ?p5 = False [Type: Boolean (0)], ?p6 = 'none' [Type: String (4)], ?p7 = NULL [Type: String (0)]
+NHibernate: INSERT INTO PatientAddress (streetNameNo, suburb, city, postalCode, addressType) VALUES (?p0, ?p1, ?p2, ?p3, ?p4);SELECT LAST_INSERT_ID();?p0 = '94 100 Acre Wood' [Type: String (16)], ?p1 = 'Poo-land' [Type: String (8)], ?p2 = 'Cape Town' [Type: String (9)], ?p3 = '9987' [Type: String (4)], ?p4 = 'I dont know what must be here' [Type: String (29)]
+NHibernate: INSERT INTO PatientAddress (streetNameNo, suburb, city, postalCode, addressType) VALUES (?p0, ?p1, ?p2, ?p3, ?p4);SELECT LAST_INSERT_ID();?p0 = '94 100 Acre Wood' [Type: String (16)], ?p1 = 'Poo-land' [Type: String (8)], ?p2 = 'Johannesburg' [Type: String (12)], ?p3 = '7899' [Type: String (4)], ?p4 = 'I dont know what must be here' [Type: String (29)]
+NHibernate: INSERT INTO PaymentData (paymentDate, paymentTime, numberOfProcedures, tax, total, changes) VALUES (?p0, ?p1, ?p2, ?p3, ?p4, ?p5);SELECT LAST_INSERT_ID();?p0 = 'Tuesday, July 19, 2011' [Type: String (22)], ?p1 = '12:52:25 AM' [Type: String (11)], ?p2 = 3 [Type: Int32 (0)], ?p3 = 0.14 [Type: Double (0)], ?p4 = 400.5 [Type: Double (0)], ?p5 = 0 [Type: Double (0)]
+NHibernate: INSERT INTO PaymentData (paymentDate, paymentTime, numberOfProcedures, tax, total, changes) VALUES (?p0, ?p1, ?p2, ?p3, ?p4, ?p5);SELECT LAST_INSERT_ID();?p0 = 'Tuesday, July 19, 2011' [Type: String (22)], ?p1 = '12:52:25 AM' [Type: String (11)], ?p2 = 5 [Type: Int32 (0)], ?p3 = 0.14 [Type: Double (0)], ?p4 = 900.5 [Type: Double (0)], ?p5 = 0 [Type: Double (0)]
+NHibernate: UPDATE PatientAddress SET patientNum = ?p0 WHERE id = ?p1;?p0 = 1 [Type: Int64 (0)], ?p1 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE PatientAddress SET patientNum = ?p0 WHERE id = ?p1;?p0 = 1 [Type: Int64 (0)], ?p1 = 2 [Type: Int64 (0)]
+NHibernate: UPDATE PaymentData SET patientNum = ?p0 WHERE id = ?p1;?p0 = 1 [Type: Int64 (0)], ?p1 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE PaymentData SET patientNum = ?p0 WHERE id = ?p1;?p0 = 1 [Type: Int64 (0)], ?p1 = 2 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id25_3_, this_.patientNum as patientNum25_3_, this_.surname as surname25_3_, this_.firstName as firstName25_3_, this_.idNum as idNum25_3_, this_.maritalStatus as maritalS6_25_3_, this_.telNo as telNo25_3_, this_.workTelNo as workTelNo25_3_, this_.refferedBy as refferedBy25_3_, payment2_.id as id21_0_, payment2_.paySurname as paySurname21_0_, payment2_.payName as payName21_0_, payment2_.payIdNumber as payIdNum4_21_0_, payment2_.payAddress as payAddress21_0_, payment2_.payTelNo as payTelNo21_0_, payment2_.payTelNoWork as payTelNo7_21_0_, payment2_.payRelationship as payRelat8_21_0_, payment2_.payOccupation as payOccup9_21_0_, payment2_.patientNum as patientNum21_0_, nextofkin3_.id as id20_1_, nextofkin3_.kinSurname as kinSurname20_1_, nextofkin3_.kinName as kinName20_1_, nextofkin3_.kinAddress as kinAddress20_1_, nextofkin3_.kinTelNo as kinTelNo20_1_, nextofkin3_.kinRelationship as kinRelat6_20_1_, nextofkin3_.patientNum as patientNum20_1_, medicalhis4_.MedHistId as MedHistId17_2_, medicalhis4_.rheumaticFever as rheumati2_17_2_, medicalhis4_.ifYesRhemDate as ifYesRhe3_17_2_, medicalhis4_.diabetic as diabetic17_2_, medicalhis4_.pophyris as pophyris17_2_, medicalhis4_.recentIllnesses as recentIl6_17_2_, medicalhis4_.bleeder as bleeder17_2_, medicalhis4_.additionalInfo as addition8_17_2_, medicalhis4_.patientNum as patientNum17_2_ FROM Patient this_ left outer join Payment payment2_ on this_.id=payment2_.id left outer join NextOfKin nextofkin3_ on this_.id=nextofkin3_.id left outer join MedicalHistory medicalhis4_ on this_.id=medicalhis4_.MedHistId WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT paymentdat0_.patientNum as patientNum1_, paymentdat0_.id as id1_, paymentdat0_.id as id22_0_, paymentdat0_.paymentDate as paymentD2_22_0_, paymentdat0_.paymentTime as paymentT3_22_0_, paymentdat0_.numberOfProcedures as numberOf4_22_0_, paymentdat0_.tax as tax22_0_, paymentdat0_.total as total22_0_, paymentdat0_.changes as changes22_0_ FROM PaymentData paymentdat0_ WHERE paymentdat0_.patientNum=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT appointmen0_.patientNum as patientNum1_, appointmen0_.id as id1_, appointmen0_.id as id15_0_, appointmen0_.appId as appId15_0_, appointmen0_.reasonForVisit as reasonFo3_15_0_, appointmen0_.appDate as appDate15_0_, appointmen0_.appTime as appTime15_0_ FROM Appointment appointmen0_ WHERE appointmen0_.patientNum=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT patientadd0_.patientNum as patientNum1_, patientadd0_.id as id1_, patientadd0_.id as id16_0_, patientadd0_.streetNameNo as streetNa2_16_0_, patientadd0_.suburb as suburb16_0_, patientadd0_.city as city16_0_, patientadd0_.postalCode as postalCode16_0_, patientadd0_.addressType as addressT6_16_0_ FROM PatientAddress patientadd0_ WHERE patientadd0_.patientNum=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id25_3_, this_.patientNum as patientNum25_3_, this_.surname as surname25_3_, this_.firstName as firstName25_3_, this_.idNum as idNum25_3_, this_.maritalStatus as maritalS6_25_3_, this_.telNo as telNo25_3_, this_.workTelNo as workTelNo25_3_, this_.refferedBy as refferedBy25_3_, payment2_.id as id21_0_, payment2_.paySurname as paySurname21_0_, payment2_.payName as payName21_0_, payment2_.payIdNumber as payIdNum4_21_0_, payment2_.payAddress as payAddress21_0_, payment2_.payTelNo as payTelNo21_0_, payment2_.payTelNoWork as payTelNo7_21_0_, payment2_.payRelationship as payRelat8_21_0_, payment2_.payOccupation as payOccup9_21_0_, payment2_.patientNum as patientNum21_0_, nextofkin3_.id as id20_1_, nextofkin3_.kinSurname as kinSurname20_1_, nextofkin3_.kinName as kinName20_1_, nextofkin3_.kinAddress as kinAddress20_1_, nextofkin3_.kinTelNo as kinTelNo20_1_, nextofkin3_.kinRelationship as kinRelat6_20_1_, nextofkin3_.patientNum as patientNum20_1_, medicalhis4_.MedHistId as MedHistId17_2_, medicalhis4_.rheumaticFever as rheumati2_17_2_, medicalhis4_.ifYesRhemDate as ifYesRhe3_17_2_, medicalhis4_.diabetic as diabetic17_2_, medicalhis4_.pophyris as pophyris17_2_, medicalhis4_.recentIllnesses as recentIl6_17_2_, medicalhis4_.bleeder as bleeder17_2_, medicalhis4_.additionalInfo as addition8_17_2_, medicalhis4_.patientNum as patientNum17_2_ FROM Patient this_ left outer join Payment payment2_ on this_.id=payment2_.id left outer join NextOfKin nextofkin3_ on this_.id=nextofkin3_.id left outer join MedicalHistory medicalhis4_ on this_.id=medicalhis4_.MedHistId WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT paymentdat0_.patientNum as patientNum1_, paymentdat0_.id as id1_, paymentdat0_.id as id22_0_, paymentdat0_.paymentDate as paymentD2_22_0_, paymentdat0_.paymentTime as paymentT3_22_0_, paymentdat0_.numberOfProcedures as numberOf4_22_0_, paymentdat0_.tax as tax22_0_, paymentdat0_.total as total22_0_, paymentdat0_.changes as changes22_0_ FROM PaymentData paymentdat0_ WHERE paymentdat0_.patientNum=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT appointmen0_.patientNum as patientNum1_, appointmen0_.id as id1_, appointmen0_.id as id15_0_, appointmen0_.appId as appId15_0_, appointmen0_.reasonForVisit as reasonFo3_15_0_, appointmen0_.appDate as appDate15_0_, appointmen0_.appTime as appTime15_0_ FROM Appointment appointmen0_ WHERE appointmen0_.patientNum=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT patientadd0_.patientNum as patientNum1_, patientadd0_.id as id1_, patientadd0_.id as id16_0_, patientadd0_.streetNameNo as streetNa2_16_0_, patientadd0_.suburb as suburb16_0_, patientadd0_.city as city16_0_, patientadd0_.postalCode as postalCode16_0_, patientadd0_.addressType as addressT6_16_0_ FROM PatientAddress patientadd0_ WHERE patientadd0_.patientNum=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE Patient SET patientNum = ?p0, surname = ?p1, firstName = ?p2, idNum = ?p3, maritalStatus = ?p4, telNo = ?p5, workTelNo = ?p6, refferedBy = ?p7 WHERE id = ?p8;?p0 = 'Auto-generated By Meena' [Type: String (23)], ?p1 = 'Kabaso' [Type: String (6)], ?p2 = 'Boniface' [Type: String (8)], ?p3 = '9999999999999' [Type: String (13)], ?p4 = 'Married' [Type: String (7)], ?p5 = '2125515' [Type: String (7)], ?p6 = '(021) 165 5566' [Type: String (14)], ?p7 = 'Tino' [Type: String (4)], ?p8 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE Payment SET paySurname = ?p0, payName = ?p1, payIdNumber = ?p2, payAddress = ?p3, payTelNo = ?p4, payTelNoWork = ?p5, payRelationship = ?p6, payOccupation = ?p7, patientNum = ?p8 WHERE id = ?p9;?p0 = 'Kabaso' [Type: String (6)], ?p1 = 'Boniface' [Type: String (8)], ?p2 = 12345698745 [Type: Int64 (0)], ?p3 = 'Somewhere' [Type: String (9)], ?p4 = 'none' [Type: String (4)], ?p5 = 'none' [Type: String (4)], ?p6 = 'None' [Type: String (4)], ?p7 = 'None' [Type: String (4)], ?p8 = NULL [Type: String (0)], ?p9 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE NextOfKin SET kinSurname = ?p0, kinName = ?p1, kinAddress = ?p2, kinTelNo = ?p3, kinRelationship = ?p4, patientNum = ?p5 WHERE id = ?p6;?p0 = '.db' [Type: String (3)], ?p1 = 'Cassandra' [Type: String (9)], ?p2 = 'Somehwere' [Type: String (9)], ?p3 = '999-888-777' [Type: String (11)], ?p4 = 'NO SQL database' [Type: String (15)], ?p5 = NULL [Type: String (0)], ?p6 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE MedicalHistory SET rheumaticFever = ?p0, ifYesRhemDate = ?p1, diabetic = ?p2, pophyris = ?p3, recentIllnesses = ?p4, bleeder = ?p5, additionalInfo = ?p6, patientNum = ?p7 WHERE MedHistId = ?p8;?p0 = False [Type: Boolean (0)], ?p1 = 'Last Night' [Type: String (10)], ?p2 = True [Type: Boolean (0)], ?p3 = False [Type: Boolean (0)], ?p4 = False [Type: Boolean (0)], ?p5 = False [Type: Boolean (0)], ?p6 = 'none' [Type: String (4)], ?p7 = NULL [Type: String (0)], ?p8 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE PatientAddress SET streetNameNo = ?p0, suburb = ?p1, city = ?p2, postalCode = ?p3, addressType = ?p4 WHERE id = ?p5;?p0 = '94 100 Acre Wood' [Type: String (16)], ?p1 = 'Poo-land' [Type: String (8)], ?p2 = 'Cape Town' [Type: String (9)], ?p3 = '9987' [Type: String (4)], ?p4 = 'I dont know what must be here' [Type: String (29)], ?p5 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE PatientAddress SET streetNameNo = ?p0, suburb = ?p1, city = ?p2, postalCode = ?p3, addressType = ?p4 WHERE id = ?p5;?p0 = '94 100 Acre Wood' [Type: String (16)], ?p1 = 'Poo-land' [Type: String (8)], ?p2 = 'Johannesburg' [Type: String (12)], ?p3 = '7899' [Type: String (4)], ?p4 = 'I dont know what must be here' [Type: String (29)], ?p5 = 2 [Type: Int64 (0)]
+NHibernate: UPDATE PaymentData SET paymentDate = ?p0, paymentTime = ?p1, numberOfProcedures = ?p2, tax = ?p3, total = ?p4, changes = ?p5 WHERE id = ?p6;?p0 = 'Tuesday, July 19, 2011' [Type: String (22)], ?p1 = '12:52:25 AM' [Type: String (11)], ?p2 = 3 [Type: Int32 (0)], ?p3 = 0.14 [Type: Double (0)], ?p4 = 400.5 [Type: Double (0)], ?p5 = 0 [Type: Double (0)], ?p6 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE PaymentData SET paymentDate = ?p0, paymentTime = ?p1, numberOfProcedures = ?p2, tax = ?p3, total = ?p4, changes = ?p5 WHERE id = ?p6;?p0 = 'Tuesday, July 19, 2011' [Type: String (22)], ?p1 = '12:52:25 AM' [Type: String (11)], ?p2 = 5 [Type: Int32 (0)], ?p3 = 0.14 [Type: Double (0)], ?p4 = 900.5 [Type: Double (0)], ?p5 = 0 [Type: Double (0)], ?p6 = 2 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id25_3_, this_.patientNum as patientNum25_3_, this_.surname as surname25_3_, this_.firstName as firstName25_3_, this_.idNum as idNum25_3_, this_.maritalStatus as maritalS6_25_3_, this_.telNo as telNo25_3_, this_.workTelNo as workTelNo25_3_, this_.refferedBy as refferedBy25_3_, payment2_.id as id21_0_, payment2_.paySurname as paySurname21_0_, payment2_.payName as payName21_0_, payment2_.payIdNumber as payIdNum4_21_0_, payment2_.payAddress as payAddress21_0_, payment2_.payTelNo as payTelNo21_0_, payment2_.payTelNoWork as payTelNo7_21_0_, payment2_.payRelationship as payRelat8_21_0_, payment2_.payOccupation as payOccup9_21_0_, payment2_.patientNum as patientNum21_0_, nextofkin3_.id as id20_1_, nextofkin3_.kinSurname as kinSurname20_1_, nextofkin3_.kinName as kinName20_1_, nextofkin3_.kinAddress as kinAddress20_1_, nextofkin3_.kinTelNo as kinTelNo20_1_, nextofkin3_.kinRelationship as kinRelat6_20_1_, nextofkin3_.patientNum as patientNum20_1_, medicalhis4_.MedHistId as MedHistId17_2_, medicalhis4_.rheumaticFever as rheumati2_17_2_, medicalhis4_.ifYesRhemDate as ifYesRhe3_17_2_, medicalhis4_.diabetic as diabetic17_2_, medicalhis4_.pophyris as pophyris17_2_, medicalhis4_.recentIllnesses as recentIl6_17_2_, medicalhis4_.bleeder as bleeder17_2_, medicalhis4_.additionalInfo as addition8_17_2_, medicalhis4_.patientNum as patientNum17_2_ FROM Patient this_ left outer join Payment payment2_ on this_.id=payment2_.id left outer join NextOfKin nextofkin3_ on this_.id=nextofkin3_.id left outer join MedicalHistory medicalhis4_ on this_.id=medicalhis4_.MedHistId WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT paymentdat0_.patientNum as patientNum1_, paymentdat0_.id as id1_, paymentdat0_.id as id22_0_, paymentdat0_.paymentDate as paymentD2_22_0_, paymentdat0_.paymentTime as paymentT3_22_0_, paymentdat0_.numberOfProcedures as numberOf4_22_0_, paymentdat0_.tax as tax22_0_, paymentdat0_.total as total22_0_, paymentdat0_.changes as changes22_0_ FROM PaymentData paymentdat0_ WHERE paymentdat0_.patientNum=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT appointmen0_.patientNum as patientNum1_, appointmen0_.id as id1_, appointmen0_.id as id15_0_, appointmen0_.appId as appId15_0_, appointmen0_.reasonForVisit as reasonFo3_15_0_, appointmen0_.appDate as appDate15_0_, appointmen0_.appTime as appTime15_0_ FROM Appointment appointmen0_ WHERE appointmen0_.patientNum=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT patientadd0_.patientNum as patientNum1_, patientadd0_.id as id1_, patientadd0_.id as id16_0_, patientadd0_.streetNameNo as streetNa2_16_0_, patientadd0_.suburb as suburb16_0_, patientadd0_.city as city16_0_, patientadd0_.postalCode as postalCode16_0_, patientadd0_.addressType as addressT6_16_0_ FROM PatientAddress patientadd0_ WHERE patientadd0_.patientNum=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id25_3_, this_.patientNum as patientNum25_3_, this_.surname as surname25_3_, this_.firstName as firstName25_3_, this_.idNum as idNum25_3_, this_.maritalStatus as maritalS6_25_3_, this_.telNo as telNo25_3_, this_.workTelNo as workTelNo25_3_, this_.refferedBy as refferedBy25_3_, payment2_.id as id21_0_, payment2_.paySurname as paySurname21_0_, payment2_.payName as payName21_0_, payment2_.payIdNumber as payIdNum4_21_0_, payment2_.payAddress as payAddress21_0_, payment2_.payTelNo as payTelNo21_0_, payment2_.payTelNoWork as payTelNo7_21_0_, payment2_.payRelationship as payRelat8_21_0_, payment2_.payOccupation as payOccup9_21_0_, payment2_.patientNum as patientNum21_0_, nextofkin3_.id as id20_1_, nextofkin3_.kinSurname as kinSurname20_1_, nextofkin3_.kinName as kinName20_1_, nextofkin3_.kinAddress as kinAddress20_1_, nextofkin3_.kinTelNo as kinTelNo20_1_, nextofkin3_.kinRelationship as kinRelat6_20_1_, nextofkin3_.patientNum as patientNum20_1_, medicalhis4_.MedHistId as MedHistId17_2_, medicalhis4_.rheumaticFever as rheumati2_17_2_, medicalhis4_.ifYesRhemDate as ifYesRhe3_17_2_, medicalhis4_.diabetic as diabetic17_2_, medicalhis4_.pophyris as pophyris17_2_, medicalhis4_.recentIllnesses as recentIl6_17_2_, medicalhis4_.bleeder as bleeder17_2_, medicalhis4_.additionalInfo as addition8_17_2_, medicalhis4_.patientNum as patientNum17_2_ FROM Patient this_ left outer join Payment payment2_ on this_.id=payment2_.id left outer join NextOfKin nextofkin3_ on this_.id=nextofkin3_.id left outer join MedicalHistory medicalhis4_ on this_.id=medicalhis4_.MedHistId WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT paymentdat0_.patientNum as patientNum1_, paymentdat0_.id as id1_, paymentdat0_.id as id22_0_, paymentdat0_.paymentDate as paymentD2_22_0_, paymentdat0_.paymentTime as paymentT3_22_0_, paymentdat0_.numberOfProcedures as numberOf4_22_0_, paymentdat0_.tax as tax22_0_, paymentdat0_.total as total22_0_, paymentdat0_.changes as changes22_0_ FROM PaymentData paymentdat0_ WHERE paymentdat0_.patientNum=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT appointmen0_.patientNum as patientNum1_, appointmen0_.id as id1_, appointmen0_.id as id15_0_, appointmen0_.appId as appId15_0_, appointmen0_.reasonForVisit as reasonFo3_15_0_, appointmen0_.appDate as appDate15_0_, appointmen0_.appTime as appTime15_0_ FROM Appointment appointmen0_ WHERE appointmen0_.patientNum=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT patientadd0_.patientNum as patientNum1_, patientadd0_.id as id1_, patientadd0_.id as id16_0_, patientadd0_.streetNameNo as streetNa2_16_0_, patientadd0_.suburb as suburb16_0_, patientadd0_.city as city16_0_, patientadd0_.postalCode as postalCode16_0_, patientadd0_.addressType as addressT6_16_0_ FROM PatientAddress patientadd0_ WHERE patientadd0_.patientNum=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT treatments0_.MedHistId as MedHistId1_, treatments0_.treatID as treatID1_, treatments0_.treatID as treatID14_0_, treatments0_.treatCode as treatCode14_0_, treatments0_.treatName as treatName14_0_, treatments0_.treatIsUrgent as treatIsU4_14_0_, treatments0_.MedHistId as MedHistId14_0_ FROM Treatment treatments0_ WHERE treatments0_.MedHistId=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT allergies0_.MedHistId as MedHistId1_, allergies0_.id as id1_, allergies0_.id as id24_0_, allergies0_.AllName as AllName24_0_, allergies0_.AllIsSerious as AllIsSer3_24_0_, allergies0_.MedHistId as MedHistId24_0_ FROM Allergy allergies0_ WHERE allergies0_.MedHistId=?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE PatientAddress SET patientNum = null WHERE patientNum = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE PaymentData SET patientNum = null WHERE patientNum = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM Payment WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM NextOfKin WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM MedicalHistory WHERE MedHistId = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM PatientAddress WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM PatientAddress WHERE id = ?p0;?p0 = 2 [Type: Int64 (0)]
+NHibernate: DELETE FROM PaymentData WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM PaymentData WHERE id = ?p0;?p0 = 2 [Type: Int64 (0)]
+NHibernate: DELETE FROM Patient WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id25_3_, this_.patientNum as patientNum25_3_, this_.surname as surname25_3_, this_.firstName as firstName25_3_, this_.idNum as idNum25_3_, this_.maritalStatus as maritalS6_25_3_, this_.telNo as telNo25_3_, this_.workTelNo as workTelNo25_3_, this_.refferedBy as refferedBy25_3_, payment2_.id as id21_0_, payment2_.paySurname as paySurname21_0_, payment2_.payName as payName21_0_, payment2_.payIdNumber as payIdNum4_21_0_, payment2_.payAddress as payAddress21_0_, payment2_.payTelNo as payTelNo21_0_, payment2_.payTelNoWork as payTelNo7_21_0_, payment2_.payRelationship as payRelat8_21_0_, payment2_.payOccupation as payOccup9_21_0_, payment2_.patientNum as patientNum21_0_, nextofkin3_.id as id20_1_, nextofkin3_.kinSurname as kinSurname20_1_, nextofkin3_.kinName as kinName20_1_, nextofkin3_.kinAddress as kinAddress20_1_, nextofkin3_.kinTelNo as kinTelNo20_1_, nextofkin3_.kinRelationship as kinRelat6_20_1_, nextofkin3_.patientNum as patientNum20_1_, medicalhis4_.MedHistId as MedHistId17_2_, medicalhis4_.rheumaticFever as rheumati2_17_2_, medicalhis4_.ifYesRhemDate as ifYesRhe3_17_2_, medicalhis4_.diabetic as diabetic17_2_, medicalhis4_.pophyris as pophyris17_2_, medicalhis4_.recentIllnesses as recentIl6_17_2_, medicalhis4_.bleeder as bleeder17_2_, medicalhis4_.additionalInfo as addition8_17_2_, medicalhis4_.patientNum as patientNum17_2_ FROM Patient this_ left outer join Payment payment2_ on this_.id=payment2_.id left outer join NextOfKin nextofkin3_ on this_.id=nextofkin3_.id left outer join MedicalHistory medicalhis4_ on this_.id=medicalhis4_.MedHistId WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fa9f7e54-b9cc-4244-88ae-177793094e6b" testId="a4aaea69-8e99-80da-06a2-51caab4d2873" testName="TestAllPatientAddress" computerName="TINO-PC" duration="00:00:24.3290409" startTime="2011-07-19T00:52:27.5786576-07:00" endTime="2011-07-19T00:52:51.9250501-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa9f7e54-b9cc-4244-88ae-177793094e6b">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990A213425E
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A6A213425E
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table PaymentData (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paymentDate VARCHAR(255),
+       paymentTime VARCHAR(255),
+       numberOfProcedures INTEGER,
+       tax DOUBLE,
+       total DOUBLE,
+       changes DOUBLE,
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table TerminalUser (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       userName VARCHAR(255),
+       password VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Allergy (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       AllName VARCHAR(255),
+       AllIsSerious TINYINT(1),
+       MedHistId BIGINT,
+       primary key (id)
+    )
+
+    create table Patient (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       patientNum VARCHAR(255),
+       surname VARCHAR(255),
+       firstName VARCHAR(255),
+       idNum VARCHAR(255),
+       maritalStatus VARCHAR(255),
+       telNo VARCHAR(255),
+       workTelNo VARCHAR(255),
+       refferedBy VARCHAR(255),
+       primary key (id)
+    )
+
+    alter table Treatment 
+        add index (MedHistId), 
+        add constraint FK36967990A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+
+    alter table Appointment 
+        add index (patientNum), 
+        add constraint FKBB6A20C0EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PatientAddress 
+        add index (patientNum), 
+        add constraint FKB4CD86E1EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PaymentData 
+        add index (patientNum), 
+        add constraint FKD4348610EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table Allergy 
+        add index (MedHistId), 
+        add constraint FKECE328A6A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+NHibernate: INSERT INTO PatientAddress (streetNameNo, suburb, city, postalCode, addressType) VALUES (?p0, ?p1, ?p2, ?p3, ?p4);SELECT LAST_INSERT_ID();?p0 = '94 100 Acre Wood' [Type: String (16)], ?p1 = 'Poo-land' [Type: String (8)], ?p2 = 'Cape Town' [Type: String (9)], ?p3 = '9987' [Type: String (4)], ?p4 = 'I dont know what must be here' [Type: String (29)]
+NHibernate: SELECT this_.id as id16_0_, this_.streetNameNo as streetNa2_16_0_, this_.suburb as suburb16_0_, this_.city as city16_0_, this_.postalCode as postalCode16_0_, this_.addressType as addressT6_16_0_ FROM PatientAddress this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id16_0_, this_.streetNameNo as streetNa2_16_0_, this_.suburb as suburb16_0_, this_.city as city16_0_, this_.postalCode as postalCode16_0_, this_.addressType as addressT6_16_0_ FROM PatientAddress this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE PatientAddress SET streetNameNo = ?p0, suburb = ?p1, city = ?p2, postalCode = ?p3, addressType = ?p4 WHERE id = ?p5;?p0 = '39 PekeurStreet Montagu' [Type: String (23)], ?p1 = 'Poo-land' [Type: String (8)], ?p2 = 'Cape Town' [Type: String (9)], ?p3 = '9987' [Type: String (4)], ?p4 = 'I dont know what must be here' [Type: String (29)], ?p5 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id16_0_, this_.streetNameNo as streetNa2_16_0_, this_.suburb as suburb16_0_, this_.city as city16_0_, this_.postalCode as postalCode16_0_, this_.addressType as addressT6_16_0_ FROM PatientAddress this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id16_0_, this_.streetNameNo as streetNa2_16_0_, this_.suburb as suburb16_0_, this_.city as city16_0_, this_.postalCode as postalCode16_0_, this_.addressType as addressT6_16_0_ FROM PatientAddress this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM PatientAddress WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id16_0_, this_.streetNameNo as streetNa2_16_0_, this_.suburb as suburb16_0_, this_.city as city16_0_, this_.postalCode as postalCode16_0_, this_.addressType as addressT6_16_0_ FROM PatientAddress this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="473f6410-b6c1-472a-8133-3554ce854ddf" testId="d023ff9b-12c5-5440-f6f4-f338c74d902d" testName="TestAllPayment" computerName="TINO-PC" duration="00:00:23.8965171" startTime="2011-07-19T00:52:51.9360507-07:00" endTime="2011-07-19T00:53:15.8494185-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="473f6410-b6c1-472a-8133-3554ce854ddf">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990A213425E
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A6A213425E
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table PaymentData (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paymentDate VARCHAR(255),
+       paymentTime VARCHAR(255),
+       numberOfProcedures INTEGER,
+       tax DOUBLE,
+       total DOUBLE,
+       changes DOUBLE,
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table TerminalUser (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       userName VARCHAR(255),
+       password VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Allergy (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       AllName VARCHAR(255),
+       AllIsSerious TINYINT(1),
+       MedHistId BIGINT,
+       primary key (id)
+    )
+
+    create table Patient (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       patientNum VARCHAR(255),
+       surname VARCHAR(255),
+       firstName VARCHAR(255),
+       idNum VARCHAR(255),
+       maritalStatus VARCHAR(255),
+       telNo VARCHAR(255),
+       workTelNo VARCHAR(255),
+       refferedBy VARCHAR(255),
+       primary key (id)
+    )
+
+    alter table Treatment 
+        add index (MedHistId), 
+        add constraint FK36967990A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+
+    alter table Appointment 
+        add index (patientNum), 
+        add constraint FKBB6A20C0EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PatientAddress 
+        add index (patientNum), 
+        add constraint FKB4CD86E1EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PaymentData 
+        add index (patientNum), 
+        add constraint FKD4348610EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table Allergy 
+        add index (MedHistId), 
+        add constraint FKECE328A6A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+NHibernate: INSERT INTO Payment (paySurname, payName, payIdNumber, payAddress, payTelNo, payTelNoWork, payRelationship, payOccupation, patientNum) VALUES (?p0, ?p1, ?p2, ?p3, ?p4, ?p5, ?p6, ?p7, ?p8);SELECT LAST_INSERT_ID();?p0 = 'Burger' [Type: String (6)], ?p1 = 'Kobus' [Type: String (5)], ?p2 = 7896541230 [Type: Int64 (0)], ?p3 = 'Somewhere in the world' [Type: String (22)], ?p4 = '(021) 988 5555' [Type: String (14)], ?p5 = '(021) 966 333' [Type: String (13)], ?p6 = 'Not related' [Type: String (11)], ?p7 = 'C# Developer' [Type: String (12)], ?p8 = NULL [Type: String (0)]
+NHibernate: SELECT this_.id as id21_0_, this_.paySurname as paySurname21_0_, this_.payName as payName21_0_, this_.payIdNumber as payIdNum4_21_0_, this_.payAddress as payAddress21_0_, this_.payTelNo as payTelNo21_0_, this_.payTelNoWork as payTelNo7_21_0_, this_.payRelationship as payRelat8_21_0_, this_.payOccupation as payOccup9_21_0_, this_.patientNum as patientNum21_0_ FROM Payment this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id21_0_, this_.paySurname as paySurname21_0_, this_.payName as payName21_0_, this_.payIdNumber as payIdNum4_21_0_, this_.payAddress as payAddress21_0_, this_.payTelNo as payTelNo21_0_, this_.payTelNoWork as payTelNo7_21_0_, this_.payRelationship as payRelat8_21_0_, this_.payOccupation as payOccup9_21_0_, this_.patientNum as patientNum21_0_ FROM Payment this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE Payment SET paySurname = ?p0, payName = ?p1, payIdNumber = ?p2, payAddress = ?p3, payTelNo = ?p4, payTelNoWork = ?p5, payRelationship = ?p6, payOccupation = ?p7, patientNum = ?p8 WHERE id = ?p9;?p0 = 'Burger' [Type: String (6)], ?p1 = 'Kobus' [Type: String (5)], ?p2 = 7896541230 [Type: Int64 (0)], ?p3 = 'Somewhere in the world' [Type: String (22)], ?p4 = '(021) 988 5555' [Type: String (14)], ?p5 = '(021) 966 333' [Type: String (13)], ?p6 = 'Not related' [Type: String (11)], ?p7 = 'Java Developer' [Type: String (14)], ?p8 = NULL [Type: String (0)], ?p9 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id21_0_, this_.paySurname as paySurname21_0_, this_.payName as payName21_0_, this_.payIdNumber as payIdNum4_21_0_, this_.payAddress as payAddress21_0_, this_.payTelNo as payTelNo21_0_, this_.payTelNoWork as payTelNo7_21_0_, this_.payRelationship as payRelat8_21_0_, this_.payOccupation as payOccup9_21_0_, this_.patientNum as patientNum21_0_ FROM Payment this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id21_0_, this_.paySurname as paySurname21_0_, this_.payName as payName21_0_, this_.payIdNumber as payIdNum4_21_0_, this_.payAddress as payAddress21_0_, this_.payTelNo as payTelNo21_0_, this_.payTelNoWork as payTelNo7_21_0_, this_.payRelationship as payRelat8_21_0_, this_.payOccupation as payOccup9_21_0_, this_.patientNum as patientNum21_0_ FROM Payment this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM Payment WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id21_0_, this_.paySurname as paySurname21_0_, this_.payName as payName21_0_, this_.payIdNumber as payIdNum4_21_0_, this_.payAddress as payAddress21_0_, this_.payTelNo as payTelNo21_0_, this_.payTelNoWork as payTelNo7_21_0_, this_.payRelationship as payRelat8_21_0_, this_.payOccupation as payOccup9_21_0_, this_.patientNum as patientNum21_0_ FROM Payment this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f83b7067-0e92-4068-b40d-eff16025aa7a" testId="ef02c3d0-ff67-1dfc-598e-2b27d85d78c5" testName="TestAllPaymentData" computerName="TINO-PC" duration="00:00:24.6225748" startTime="2011-07-19T00:53:15.8614192-07:00" endTime="2011-07-19T00:53:40.4988284-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f83b7067-0e92-4068-b40d-eff16025aa7a">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990A213425E
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A6A213425E
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table PaymentData (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paymentDate VARCHAR(255),
+       paymentTime VARCHAR(255),
+       numberOfProcedures INTEGER,
+       tax DOUBLE,
+       total DOUBLE,
+       changes DOUBLE,
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table TerminalUser (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       userName VARCHAR(255),
+       password VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Allergy (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       AllName VARCHAR(255),
+       AllIsSerious TINYINT(1),
+       MedHistId BIGINT,
+       primary key (id)
+    )
+
+    create table Patient (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       patientNum VARCHAR(255),
+       surname VARCHAR(255),
+       firstName VARCHAR(255),
+       idNum VARCHAR(255),
+       maritalStatus VARCHAR(255),
+       telNo VARCHAR(255),
+       workTelNo VARCHAR(255),
+       refferedBy VARCHAR(255),
+       primary key (id)
+    )
+
+    alter table Treatment 
+        add index (MedHistId), 
+        add constraint FK36967990A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+
+    alter table Appointment 
+        add index (patientNum), 
+        add constraint FKBB6A20C0EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PatientAddress 
+        add index (patientNum), 
+        add constraint FKB4CD86E1EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PaymentData 
+        add index (patientNum), 
+        add constraint FKD4348610EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table Allergy 
+        add index (MedHistId), 
+        add constraint FKECE328A6A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+NHibernate: INSERT INTO PaymentData (paymentDate, paymentTime, numberOfProcedures, tax, total, changes) VALUES (?p0, ?p1, ?p2, ?p3, ?p4, ?p5);SELECT LAST_INSERT_ID();?p0 = 'Tuesday, July 19, 2011' [Type: String (22)], ?p1 = '12:53:39 AM' [Type: String (11)], ?p2 = 3 [Type: Int32 (0)], ?p3 = 0.14 [Type: Double (0)], ?p4 = 999999.99 [Type: Double (0)], ?p5 = 999999.99 [Type: Double (0)]
+NHibernate: SELECT this_.id as id22_0_, this_.paymentDate as paymentD2_22_0_, this_.paymentTime as paymentT3_22_0_, this_.numberOfProcedures as numberOf4_22_0_, this_.tax as tax22_0_, this_.total as total22_0_, this_.changes as changes22_0_ FROM PaymentData this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id22_0_, this_.paymentDate as paymentD2_22_0_, this_.paymentTime as paymentT3_22_0_, this_.numberOfProcedures as numberOf4_22_0_, this_.tax as tax22_0_, this_.total as total22_0_, this_.changes as changes22_0_ FROM PaymentData this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE PaymentData SET paymentDate = ?p0, paymentTime = ?p1, numberOfProcedures = ?p2, tax = ?p3, total = ?p4, changes = ?p5 WHERE id = ?p6;?p0 = 'Tuesday, July 19, 2011' [Type: String (22)], ?p1 = '12:53:39 AM' [Type: String (11)], ?p2 = 5 [Type: Int32 (0)], ?p3 = 0.14 [Type: Double (0)], ?p4 = 999999.99 [Type: Double (0)], ?p5 = 999999.99 [Type: Double (0)], ?p6 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id22_0_, this_.paymentDate as paymentD2_22_0_, this_.paymentTime as paymentT3_22_0_, this_.numberOfProcedures as numberOf4_22_0_, this_.tax as tax22_0_, this_.total as total22_0_, this_.changes as changes22_0_ FROM PaymentData this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id22_0_, this_.paymentDate as paymentD2_22_0_, this_.paymentTime as paymentT3_22_0_, this_.numberOfProcedures as numberOf4_22_0_, this_.tax as tax22_0_, this_.total as total22_0_, this_.changes as changes22_0_ FROM PaymentData this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM PaymentData WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id22_0_, this_.paymentDate as paymentD2_22_0_, this_.paymentTime as paymentT3_22_0_, this_.numberOfProcedures as numberOf4_22_0_, this_.tax as tax22_0_, this_.total as total22_0_, this_.changes as changes22_0_ FROM PaymentData this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="921fb6d0-bb79-4e72-b387-bd9531c47f81" testId="f44b82e6-9fa6-66d0-f37d-d7eea6349f41" testName="TestAllEmployee" computerName="TINO-PC" duration="00:00:24.9940036" startTime="2011-07-19T00:53:40.5178295-07:00" endTime="2011-07-19T00:54:05.5282600-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="921fb6d0-bb79-4e72-b387-bd9531c47f81">
+      <Output>
+        <StdOut>alter table Treatment  drop foreign key FK36967990A213425E
+
+
+    
+alter table Appointment  drop foreign key FKBB6A20C0EBCE5ED0
+
+
+    
+alter table PatientAddress  drop foreign key FKB4CD86E1EBCE5ED0
+
+
+    
+alter table PaymentData  drop foreign key FKD4348610EBCE5ED0
+
+
+    
+alter table Allergy  drop foreign key FKECE328A6A213425E
+
+
+    drop table if exists Procedures
+
+    drop table if exists Treatment
+
+    drop table if exists Appointment
+
+    drop table if exists PatientAddress
+
+    drop table if exists MedicalHistory
+
+    drop table if exists Authorizer
+
+    drop table if exists Employee
+
+    drop table if exists NextOfKin
+
+    drop table if exists Payment
+
+    drop table if exists PaymentData
+
+    drop table if exists TerminalUser
+
+    drop table if exists Allergy
+
+    drop table if exists Patient
+
+    create table Procedures (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       procedureCode INTEGER,
+       procedureName VARCHAR(255),
+       procedurePrice DOUBLE,
+       primary key (id)
+    )
+
+    create table Treatment (
+        treatID BIGINT NOT NULL AUTO_INCREMENT,
+       treatCode INTEGER,
+       treatName VARCHAR(255),
+       treatIsUrgent TINYINT(1),
+       MedHistId BIGINT,
+       primary key (treatID)
+    )
+
+    create table Appointment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       appId VARCHAR(255),
+       reasonForVisit VARCHAR(255),
+       appDate VARCHAR(255),
+       appTime VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table PatientAddress (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       streetNameNo VARCHAR(255),
+       suburb VARCHAR(255),
+       city VARCHAR(255),
+       postalCode VARCHAR(255),
+       addressType VARCHAR(255),
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table MedicalHistory (
+        MedHistId BIGINT NOT NULL AUTO_INCREMENT,
+       rheumaticFever TINYINT(1),
+       ifYesRhemDate VARCHAR(255),
+       diabetic TINYINT(1),
+       pophyris TINYINT(1),
+       recentIllnesses TINYINT(1),
+       bleeder TINYINT(1),
+       additionalInfo VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (MedHistId)
+    )
+
+    create table Authorizer (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empNo VARCHAR(255),
+       authCode VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Employee (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       empId VARCHAR(255),
+       empNo VARCHAR(255),
+       empName VARCHAR(255),
+       empSurname VARCHAR(255),
+       empGender VARCHAR(255),
+       empAddress VARCHAR(255),
+       jobTitle VARCHAR(255),
+       empType VARCHAR(255),
+       primary key (id)
+    )
+
+    create table NextOfKin (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       kinSurname VARCHAR(255),
+       kinName VARCHAR(255),
+       kinAddress VARCHAR(255),
+       kinTelNo VARCHAR(255),
+       kinRelationship VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Payment (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paySurname VARCHAR(255),
+       payName VARCHAR(255),
+       payIdNumber BIGINT,
+       payAddress VARCHAR(255),
+       payTelNo VARCHAR(255),
+       payTelNoWork VARCHAR(255),
+       payRelationship VARCHAR(255),
+       payOccupation VARCHAR(255),
+       patientNum VARCHAR(255),
+       primary key (id)
+    )
+
+    create table PaymentData (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       paymentDate VARCHAR(255),
+       paymentTime VARCHAR(255),
+       numberOfProcedures INTEGER,
+       tax DOUBLE,
+       total DOUBLE,
+       changes DOUBLE,
+       patientNum BIGINT,
+       primary key (id)
+    )
+
+    create table TerminalUser (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       userName VARCHAR(255),
+       password VARCHAR(255),
+       secQuestion VARCHAR(255),
+       secAnswer VARCHAR(255),
+       primary key (id)
+    )
+
+    create table Allergy (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       AllName VARCHAR(255),
+       AllIsSerious TINYINT(1),
+       MedHistId BIGINT,
+       primary key (id)
+    )
+
+    create table Patient (
+        id BIGINT NOT NULL AUTO_INCREMENT,
+       patientNum VARCHAR(255),
+       surname VARCHAR(255),
+       firstName VARCHAR(255),
+       idNum VARCHAR(255),
+       maritalStatus VARCHAR(255),
+       telNo VARCHAR(255),
+       workTelNo VARCHAR(255),
+       refferedBy VARCHAR(255),
+       primary key (id)
+    )
+
+    alter table Treatment 
+        add index (MedHistId), 
+        add constraint FK36967990A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+
+    alter table Appointment 
+        add index (patientNum), 
+        add constraint FKBB6A20C0EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PatientAddress 
+        add index (patientNum), 
+        add constraint FKB4CD86E1EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table PaymentData 
+        add index (patientNum), 
+        add constraint FKD4348610EBCE5ED0 
+        foreign key (patientNum) 
+        references Patient (id)
+
+    alter table Allergy 
+        add index (MedHistId), 
+        add constraint FKECE328A6A213425E 
+        foreign key (MedHistId) 
+        references MedicalHistory (MedHistId)
+NHibernate: INSERT INTO Employee (empId, empNo, empName, empSurname, empGender, empAddress, jobTitle, empType) VALUES (?p0, ?p1, ?p2, ?p3, ?p4, ?p5, ?p6, ?p7);SELECT LAST_INSERT_ID();?p0 = 'E96543218' [Type: String (9)], ?p1 = NULL [Type: String (0)], ?p2 = 'Tino' [Type: String (4)], ?p3 = 'Moerat' [Type: String (6)], ?p4 = 'Male' [Type: String (4)], ?p5 = 'Somehwere Far in a lost city' [Type: String (28)], ?p6 = 'Cleaner' [Type: String (7)], ?p7 = 'A' [Type: String (1)]
+NHibernate: SELECT this_.id as id19_0_, this_.empId as empId19_0_, this_.empNo as empNo19_0_, this_.empName as empName19_0_, this_.empSurname as empSurname19_0_, this_.empGender as empGender19_0_, this_.empAddress as empAddress19_0_, this_.jobTitle as jobTitle19_0_, this_.empType as empType19_0_ FROM Employee this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id19_0_, this_.empId as empId19_0_, this_.empNo as empNo19_0_, this_.empName as empName19_0_, this_.empSurname as empSurname19_0_, this_.empGender as empGender19_0_, this_.empAddress as empAddress19_0_, this_.jobTitle as jobTitle19_0_, this_.empType as empType19_0_ FROM Employee this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: UPDATE Employee SET empId = ?p0, empNo = ?p1, empName = ?p2, empSurname = ?p3, empGender = ?p4, empAddress = ?p5, jobTitle = ?p6, empType = ?p7 WHERE id = ?p8;?p0 = 'E96543218' [Type: String (9)], ?p1 = NULL [Type: String (0)], ?p2 = 'Tino' [Type: String (4)], ?p3 = 'Moerat' [Type: String (6)], ?p4 = 'Male' [Type: String (4)], ?p5 = 'Somehwere Far in a lost city' [Type: String (28)], ?p6 = 'Software Developer' [Type: String (18)], ?p7 = 'A' [Type: String (1)], ?p8 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id19_0_, this_.empId as empId19_0_, this_.empNo as empNo19_0_, this_.empName as empName19_0_, this_.empSurname as empSurname19_0_, this_.empGender as empGender19_0_, this_.empAddress as empAddress19_0_, this_.jobTitle as jobTitle19_0_, this_.empType as empType19_0_ FROM Employee this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id19_0_, this_.empId as empId19_0_, this_.empNo as empNo19_0_, this_.empName as empName19_0_, this_.empSurname as empSurname19_0_, this_.empGender as empGender19_0_, this_.empAddress as empAddress19_0_, this_.jobTitle as jobTitle19_0_, this_.empType as empType19_0_ FROM Employee this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: DELETE FROM Employee WHERE id = ?p0;?p0 = 1 [Type: Int64 (0)]
+NHibernate: SELECT this_.id as id19_0_, this_.empId as empId19_0_, this_.empNo as empNo19_0_, this_.empName as empName19_0_, this_.empSurname as empSurname19_0_, this_.empGender as empGender19_0_, this_.empAddress as empAddress19_0_, this_.jobTitle as jobTitle19_0_, this_.empType as empType19_0_ FROM Employee this_ WHERE this_.id = ?p0;?p0 = 1 [Type: Int64 (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

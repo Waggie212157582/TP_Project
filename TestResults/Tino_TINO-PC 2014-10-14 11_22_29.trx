@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="38daa36b-4bf9-4140-93fa-18e10e34c2b1" name="Tino@TINO-PC 2014-10-14 11:22:29" runUser="Tino-PC\Tino" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3caa583e-b5f9-4780-b502-695f744f7d3c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tino_TINO-PC 2014-10-14 11_22_29">
+      <DeploymentItem filename="C:\Users\Tino\Desktop\TP\TP\bin\Debug\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\Tino\Desktop\TP\TP\bin\Debug\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\Users\Tino\Desktop\TP\TP\bin\Debug\System.Data.SqlServerCe.dll" />
+      <DeploymentItem filename="C:\Users\Tino\Desktop\TP\TP\bin\Debug\TP.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-14T11:22:29.7617689-07:00" queuing="2014-10-14T11:22:29.8797757-07:00" start="2014-10-14T11:22:29.9527798-07:00" finish="2014-10-14T11:22:38.7772846-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestAllPatient" storage="c:\users\tino\desktop\tp\tptest\bin\debug\tptest.dll" id="6e26cf5a-168a-510e-410f-d0545d2f9604">
+      <Execution id="d25eb68f-d91d-423c-8f2f-4698165a90ec" />
+      <TestMethod codeBase="C:/Users/Tino/Desktop/TP/TPTest/bin/Debug/TPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TPTest.TestPatient, TPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllPatient" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6e26cf5a-168a-510e-410f-d0545d2f9604" executionId="d25eb68f-d91d-423c-8f2f-4698165a90ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d25eb68f-d91d-423c-8f2f-4698165a90ec" testId="6e26cf5a-168a-510e-410f-d0545d2f9604" testName="TestAllPatient" computerName="TINO-PC" duration="00:00:07.0616761" startTime="2014-10-14T11:22:30.0107831-07:00" endTime="2014-10-14T11:22:38.5792732-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d25eb68f-d91d-423c-8f2f-4698165a90ec">
+      <Output>
+        <StdOut>if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FK36967990506A3C44]') AND parent_object_id = OBJECT_ID('Treatment'))
+alter table Treatment  drop constraint FK36967990506A3C44
+
+
+    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FKBB6A20C0EBCE5ED0]') AND parent_object_id = OBJECT_ID('Appointment'))
+alter table Appointment  drop constraint FKBB6A20C0EBCE5ED0
+
+
+    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FKB4CD86E1EBCE5ED0]') AND parent_object_id = OBJECT_ID('PatientAddress'))
+alter table PatientAddress  drop constraint FKB4CD86E1EBCE5ED0
+
+
+    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FKD434861036646595]') AND parent_object_id = OBJECT_ID('PaymentData'))
+alter table PaymentData  drop constraint FKD434861036646595
+
+
+    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FKD4348610EBCE5ED0]') AND parent_object_id = OBJECT_ID('PaymentData'))
+alter table PaymentData  drop constraint FKD4348610EBCE5ED0
+
+
+    if exists (select 1 from sys.objects where object_id = OBJECT_ID(N'[FKECE328A61A023E82]') AND parent_object_id = OBJECT_ID('Allergy'))
+alter table Allergy  drop constraint FKECE328A61A023E82
+
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'Procedures') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Procedures
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'Treatment') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Treatment
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'Appointment') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Appointment
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'PatientAddress') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table PatientAddress
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'MedicalHistory') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table MedicalHistory
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'Authorizer') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Authorizer
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'Employee') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Employee
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'NextOfKin') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table NextOfKin
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'Payment') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Payment
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'PaymentData') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table PaymentData
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'TerminalUser') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table TerminalUser
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'Allergy') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Allergy
+
+    if exists (select * from dbo.sysobjects where id = object_id(N'Patient') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table Patient
+
+    create table Procedures (
+        id BIGINT IDENTITY NOT NULL,
+       procedureCode INT null,
+       procedureName NVARCHAR(255) null,
+       procedurePrice DOUBLE PRECISION null,
+       primary key (id)
+    )</StdOut>
+        <ErrorInfo>
+          <Message>Test method TPTest.TestPatient.TestAllPatient threw exception: 
+NHibernate.HibernateException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IDENTITY NOT NULL, procedureCode INT null, procedureName NVARCHAR(255) null, pro' at line 1 ---&gt; MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IDENTITY NOT NULL, procedureCode INT null, procedureName NVARCHAR(255) null, pro' at line 1</Message>
+          <StackTrace>    at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32&amp; affectedRow, Int64&amp; insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32&amp; affectedRows, Int64&amp; insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at NHibernate.Tool.hbm2ddl.SchemaExport.ExecuteSql(IDbCommand cmd, String sql)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean throwOnError, TextWriter exportOutput, IDbCommand statement, String sql)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop, IDbConnection connection, TextWriter exportOutput)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop)
+ --- End of inner exception stack trace ---
+    at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Boolean script, Boolean export, Boolean justDrop)
+   at TP.Config.ConnectionConfig.loadPatientConfig() in C:\Users\Tino\Desktop\TP\TP\config\ConnectionConfig.cs:line 18
+   at TPTest.TestPatient.testCreate() in C:\Users\Tino\Desktop\TP\TPTest\repository\TestPatient.cs:line 31
+   at TPTest.TestPatient.TestAllPatient() in C:\Users\Tino\Desktop\TP\TPTest\repository\TestPatient.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

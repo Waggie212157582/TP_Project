@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="TP"
+                   namespace="TP.Domain">
+  <class name="Procedures">
+    <id name="id">
+      <generator class="native" />
+    </id>
+    <property name="procedureCode" />
+    <property name="procedureName" />
+    <property name="procedurePrice" />
+  </class>
+</hibernate-mapping>

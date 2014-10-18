@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="TP"
+                   namespace="TP.Domain">
+  <class name="Patient">
+    <id name="id">
+      <generator class="native" />
+    </id>
+    <property name="patientNum" />
+    <property name="surname" />
+    <property name="firstName" />
+    <property name="idNum" />
+    <property name="maritalStatus" />
+    <property name="telNo" />
+    <property name="workTelNo" />
+    <property name="refferedBy" />
+
+    <one-to-one name="payment" class="Payment" foreign-key="none" cascade="all" lazy="false"/>
+    <one-to-one name="nextOfKin"  class="NextOfKin" foreign-key="none" cascade="all" lazy="false"/>
+    <one-to-one name="medicalHistory" class="MedicalHistory" foreign-key="none" cascade="all" lazy="false" />
+    
+    <set name="patientAddresses" cascade="All" batch-size="50" lazy="false">
+      <key column="patientNum"/>
+      <one-to-many class="PatientAddress"/>
+    </set>
+
+    <set name="appointmentList" cascade="All" batch-size="50" lazy="false">
+      <key column="patientNum" />
+      <one-to-many class="Appointment"/>
+    </set>
+
+    <set name="paymentData" cascade="All" batch-size="50" lazy="false" >
+      <key column="patientNum" />
+      <one-to-many class="PaymentData"/>
+    </set>
+
+  </class>
+  
+</hibernate-mapping>
